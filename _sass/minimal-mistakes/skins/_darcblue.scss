@@ -1,0 +1,26 @@
+/* ==========================================================================
+   DARCBLUE skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #fff !default;
+$text-color: #717171 !default;
+$muted-text-color: #717171 !default;
+$primary-color: #001d2e !default;
+$border-color: mix(#fff, #001d2e, 75%) !default;
+$footer-background-color: #f6f6f6 !default;
+$link-color: #001d2e !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
+$navicon-link-color-hover: mix(#fd8710, $text-color, 80%) !default;
+
+.page__footer {
+  color: inherit;
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+/* Fonts */
+$sans-serif: 'Open Sans', Arial, sans-serif !default;
